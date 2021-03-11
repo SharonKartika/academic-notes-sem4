@@ -105,11 +105,14 @@ The position operator asks us to _multiply the function with $x$_.
 
 The momentum operator asks us to differentiate with respect to $x$ and multiply by $\hbar/i$.
 
-We say that the operator $x$ represents position, and the operator $\left(\frac{h}{i}\frac{\partial}{\partial x}\right):=\hat p$ represents momentum.
+We say that the operator $\hat x$ represents position, and the operator $\left(\frac{h}{i}\frac{\partial}{\partial x}\right):=\hat p$ represents momentum.
 
 In general,
 
-![image-20210226192536672](/home/sharon/Desktop/Celeste/academic-notes-sem4/PH2201/.markdown-assets/QM-Griffith-Notes.assets/image-20210226192536672.png)
+$$
+\lang \theta \rang = \int\psi^*\theta\psi dx
+$$
+
 
 The expectation of a dynamical quantity $Q$ is given by the above equation, for a particle in state $\Psi$.
 
@@ -404,6 +407,33 @@ E_n=\left(n+\frac{1}{2}\right)\hbar\omega
 $$
 We can do some analysis (page 59 of griffith) to show that,
 $$
-A_n = \frac{1}{n!}
+A_n = \frac{1}{\sqrt{n!}}
 $$
 Here too, we see that the stationary states are orthonormal, and hence we can use the fourier method to determine the full wavefunction.
+
+### Analytic method
+
+## Free particle
+
+## Dirac potential
+
+Classically, we can define
+
+__Bound state__: When the potential to both sides of a particle in 1D is greater than its energy, the particle is trapped in the well. 
+
+__Scattering state__: When the potential peaks at some point, the particle comes from infinity and goes to infinity. 
+
+The free particle is an example of a scattering state while the infinite square well and the harmonic oscillator are examples of bound state. 
+
+In quantum mechanics, the only thing that matters is the potentials at infinity (since the particles can _leak_ through any finite potential barrier, due to tunneling). 
+$$
+E<V(-\infty),V(\infty)\implies \text{bound state}\\
+E>V(-\infty),V(\infty)\implies \text{scattering state}
+$$
+In the real world, the potentials at infinity are $0$ and hence,
+$$
+E<0\implies \text{bound state}\\
+E>0\implies \text{scattering state}
+$$
+The above condition neatly explains why the free particle is in a scattering state and others.
+

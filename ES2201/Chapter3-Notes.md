@@ -20,7 +20,7 @@ $$
 V(\mathbf{r})=\frac{1}{4\pi r ^3}\cdot\mathbf{m}\cdot\mathbf{r}
 $$
 
-Where $m$ is the dipole moment which in the case of Earth has a magnitude of $7.94\cdot10^22Am^{-2}$.  The field at any position is given by,
+Where $m$ is the dipole moment which in the case of Earth has a magnitude of $7.94\cdot10^{22}Am^{-2}$.  The field at any position is given by,
 $$
 B(\mathbf{r}) = -\mu_0\nabla V(\mathbf{r})
 $$
@@ -50,7 +50,7 @@ The inward radial component ($-B_r$) is called $Z$.
 
 ### Inclination
 
-The angle between the horizontal $H$ and the (negative) vertical component $Z$ is called inclination $I$. It is given by,
+The angle between the horizontal $H$ and the magnetic field $B$ is called inclination $I$. It is given by,
 $$
 \tan I = \frac{Z}{H}\\=2\cdot\frac{\cos\theta}{\sin \theta}\\=2\cot \theta\\\tan I=2\tan \lambda
 $$
@@ -80,3 +80,35 @@ Where, $\chi$ is the magnetic susceptibility. For basalts it varies from $10^{-4
 ### Konigsberger ratio $Q$
 
 Defined as the ratio of remanent magnetisation to induced magnetisation. Measurement of the angle of inclination of the remanent magnetisation gives the magnetic paleolatitude for that continent. However, if the continent has moved, or if the rock was tilted, the magnetic latitude so determined will be different from from its present latitude. This gives us a method of determining past _latitudes_ of continents. 
+
+### Paleolatitudes
+
+If we measure the angle of inclination of a rock, we can calculate its paleolatitude at the time it aquired this magnetisation using a previous relation. However, if the rock has since moved, or has been tilted, this measurement will be wrong. The same cannot be done for longitudes.
+
+#### Paleomagnetic poles
+
+Let $N$ be the north pole, $P$ be the paleomagnetic north pole, $X$ the location of the rock sample.
+
+The coordinates of the paleomagnetic poles are given by,
+$$
+\sin λ_p = \sin λ_x  \sin λ + \cos λ_x  \cos λ \cos D
+$$
+$D$ is the measured remanent declination. $\lambda$ is the paleolatitude. $\lambda_p$ is the latitude of the pole.
+
+The difference between longitudes of the paleomagnetic pole and the sample location can be determined using
+
+![image-20210301004914267](/home/sharon/Celeste/academic-notes-sem4/ES2201/.markdown-assets/Chapter3-Notes.assets/image-20210301004914267.png)
+
+The paleomagnetic pole positions obtained from rock samples of _different age_ when plotted on a map is called the _polar-wander path_ and shows how the pole moved relative to the continent.
+
+![image-20210301005551526](/home/sharon/Celeste/academic-notes-sem4/ES2201/.markdown-assets/Chapter3-Notes.assets/image-20210301005551526.png)
+
+### Marine magnetic anomalies
+
+We usually only measure the magnitudes of the total magnetic field $B$ at a point. In 1960s we found the presence  of periodic variations symmetric about a line in the oceans. This can be used in the delineation of ridge axes and fracture zones. Magnetic anomalies are only around 1% of the earth's magnetic field.
+
+> The prominent
+> anomalies up to age 83 Ma have been numbered from one to thirty-three. For
+> ages 125–162 Ma they are labelled with the prefix M (M standing for Mesozoic).
+> Particularly prominent is the long Magnetic Quiet Zone in the Cretaceous
+> (83–124 Ma numbered C34), during which no reversals occurred
